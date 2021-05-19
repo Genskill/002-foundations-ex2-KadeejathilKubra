@@ -1,10 +1,10 @@
 #include<stdio.h>
-#inchude<cs50.h>
+#include<cs50.h>
 int main(void){
 	int choice;
 	int n,i,j,k;
 	int m =1;
-	int choice = get_int("Enter type of pattern (1 or 2) ");
+	choice = get_int("Enter type of pattern (1 or 2) ");
 	if(choice==1){
 	    n = get_int("Number of rows ");  
 		for(int i=n;i>=1;i--)  
@@ -15,6 +15,7 @@ int main(void){
 				}  
 			printf("\n");  
 			}  
+	            }
 	else{
 		 n = get_int("Number of rows ");  
 		 for(int i=n;i>=1;i--)  
