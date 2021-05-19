@@ -15,19 +15,19 @@ int main(void){
 				}  
 			printf("\n");  
 			}  
-	            }
-	else{
+	          }
+	 else{
 		 n = get_int("Number of rows");  
 		 for(int i=n;i>=1;i--)  
 			{  
 				for(int j=1;j<=i-1;j++)  
-					{  
-						printf(" ");  
-					}  
+				{  
+					printf(" ");  
+				}  
 				for(int k=1;k<=m;k++)  
-					{  
-						printf("#");  
-					}  
+				{  
+					printf("#");  
+				}  
 			printf("\n");  
 			m++;  
 			}
